@@ -1,2 +1,5 @@
-# spark-ids
-Intrusion Detection System (IDS) and netwrk traffic classifier based on Apache Spark and MLlib
+# spark-network-traffic-classifier
+Because of the exponential growth in the size of computer networks and the number of web applications, the ability to improve defenses against the significant increasing of the potential threats that can be caused by network attacks is becoming a necessary security requirement.  
+In this context, Machine Learning (ML) could be a very useful way in order to develop intelligent Intrusion Detection Systems (IDSs) and Intrusion Prevention Systems (IPSs) which are some of the most important defense tools against the sophisticated and ever-growing network attacks.  
+This work provides a new approach to network traffic analysis that has been carried out on the [KDD99](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html) and [CICIDS2017](https://www.unb.ca/cic/datasets/ids-2017.html) datasets, using Apache Spark, a lightning-fast unified analytics engine for large-scale data processing, and MLlib, the Spark’s scalable machine learning library.  
+For further information, see the documentation and the obtained results described in *report.pdf*, and the provided source code in the [project repository](https://github.com/biagiom/spark-network-traffic-classifier).
